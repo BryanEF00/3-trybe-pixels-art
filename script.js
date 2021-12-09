@@ -1,8 +1,13 @@
-const gridSize = 5;
-const grid = gridSize * gridSize;
+window.onload = function () {
+  const gridSize = 5;
+  const grid = gridSize * gridSize;
 
-for (let i = 0; i < grid; i += 1) {
-  const pixel = document.createElement('div');
-  pixel.className = 'pixel';
-  document.getElementById('pixel-board').appendChild(pixel);
-}
+  for (let i = 0; i < grid; i += 1) {
+    const pixel = document.createElement('div');
+    pixel.className = 'pixel';
+    document.getElementById('pixel-board').appendChild(pixel);
+  }
+
+  let initialColor = document.getElementById('black');
+  initialColor.classList.add('selected');
+};
