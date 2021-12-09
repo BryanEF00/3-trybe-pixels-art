@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #1D1D1D;
+}
+#title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
