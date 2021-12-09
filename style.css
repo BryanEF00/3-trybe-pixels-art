@@ -5,10 +5,70 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
 }
 #title {
-    color: white;
-    font-size: 40px;
-    text-align: center;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+#color-palette {
+  width: 900px;
+  height: 50px;
+  /* margin-left: 266px;
+  margin-right: 200px; */
+  margin-left: 42%;
+  padding-top: 20px;
+}
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+#orange {
+  background-color: #f07613;
+}
+#magenta {
+  background-color: #bd44b3;
+}
+#light-blue {
+  background-color: #3aafd9;
+}
+#yellow {
+  background-color: #f8c627;
+}
+#lime {
+  background-color: #70b919;
+}
+#pink {
+  background-color: #ed8dac;
+}
+#gray {
+  background-color: #3e4447;
+}
+#light-gray {
+  background-color: #8e8e86;
+}
+#cyan {
+  background-color: #158991;
+}
+#purple {
+  background-color: #792aac;
+}
+#blue {
+  background-color: #35399d;
+}
+#brown {
+  background-color: #724728;
+}
+#green {
+  background-color: #546d1b;
+}
+#red {
+  background-color: #a12722;
+}
+#black {
+  background-color: #141519;
 }
