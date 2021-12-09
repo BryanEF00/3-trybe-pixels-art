@@ -70,5 +70,6 @@ body {
   background-color: #a12722;
 }
 #black {
-  background-color: #141519;
+  /* background-color: #141519; */
+  background-color: black;
 }
