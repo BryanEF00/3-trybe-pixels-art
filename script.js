@@ -58,7 +58,7 @@ for (let i = 0; i < numberColors; i += 1) {
   });
 }
 
-/* Cor no pixel */
+/* Cor no grid */
 
 let pixel = document.querySelector('#pixel-board').children;
 
@@ -68,3 +68,13 @@ for (let i = 0; i < boardGrid; i += 1) {
       document.querySelector('.selected').style.backgroundColor;
   });
 }
+
+/* Limpa o grid */
+
+let clearGrid = document.querySelector('#clear-board');
+
+clearGrid.addEventListener('click', function () {
+  for (let i = 0; i < boardGrid; i += 1) {
+    pixel[i].style.backgroundColor = 'white';
+  }
+});
