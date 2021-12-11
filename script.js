@@ -51,7 +51,20 @@ for (let i = 0; i < numberColors; i += 1) {
   colorPalette[i].addEventListener('click', function () {
     for (const key of colorPalette) {
       key.classList.remove('selected');
+      key.classList.remove('selectedIndicator');
     }
     this.classList.add('selected');
+    this.classList.add('selectedIndicator');
+  });
+}
+
+/* Cor no pixel */
+
+let pixel = document.querySelector('#pixel-board').children;
+
+for (let i = 0; i < boardGrid; i += 1) {
+  pixel[i].addEventListener('click', function () {
+    this.style.backgroundColor =
+      document.querySelector('.selected').style.backgroundColor;
   });
 }
